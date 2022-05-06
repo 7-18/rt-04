@@ -1,0 +1,120 @@
+/* Products */
+
+#products {
+  text-align: center;
+}
+
+#products .container-men, .container-women {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#products .product {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0px;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+#products .product:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#products .product img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#products .product .description {
+  text-align: start;
+  padding: 10px 0px;
+}
+
+#products .product .description span {
+  color: #606063;
+  font-size: 12px;
+}
+
+#products .product .description h5 {
+  padding-top: 7px;
+  font-size: 14px;
+  color: #1a1a1a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#products .product .description i {
+  font-size: 12px;
+  color: #f3b519;
+}
+
+#products .product .description h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
+}
+
+#products .product .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+/* Category */
+
+#banner-category.men {
+  background-color: #9FECFE;
+  background-image: url("https://img.freepik.com/foto-gratis/camiseta-blanco-hoja-carton-sobre-fondo-azul_185193-72570.jpg?t=st=1651799260~exp=1651799860~hmac=7e2572a7f430c193f5bc2e6b8a77960c07ff1b7b8ebd79f7776b3e2d28b7d83a&w=740");
+  background-repeat: no-repeat;
+  background-position: right 0;
+  object-fit: fill;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#banner-category.women {
+  background-color: #E798D7;
+  background-image: url("https://img.freepik.com/foto-gratis/nina-sostiene-bolso-compras-moda-belleza_1150-13673.jpg?w=740&t=st=1651797811~exp=1651798411~hmac=fa336ce6ff0cda6aae4b95aa093ec9485207f0489797de52eb0338ba18cd640c");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#banner-category h2,
+#banner-category p {
+  color: #fff;
+}
+
+#banner-category.men h2,
+#banner-category.men p {
+  color: #000;
+}

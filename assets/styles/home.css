@@ -1,0 +1,139 @@
+/* Home Page */
+
+/* Main */
+#model-main {
+    background-image: url("https://img.freepik.com/foto-gratis/ninguna-manera-que-historia-atonita-sorprendida-chica-rubia-escuchando-chismes-entusiasmo-e-interes_1258-93845.jpg?w=996&t=st=1651800629~exp=1651801229~hmac=7e7ef70c73bec07b5fd799548903c8edd3556ee25b50f67ec8649fc646d89618");
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  #model-main h4 {
+    padding-bottom: 14px;
+  }
+  
+  #model-main h1 {
+    color: #088178;
+  }
+
+  #model-main h4, #model-main h2 {
+    color: #fff
+  }
+  
+  #model-main button {
+    background-image: url("https://img.freepik.com/foto-gratis/vector-fondo-trazo-pincel-acrilico-rosa_53876-163067.jpg?t=st=1651800040~exp=1651800640~hmac=21db2c390fdabdaa4d43c910aad59c630d8662e2a659499b6783f5b7765c90fb&w=740");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  /* Banner */
+  
+  #home-banner {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #home-banner .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://img.freepik.com/foto-gratis/carrito-compras-mueve-velocidad-luz-sobre-fondo-globos-cajas-regalo-todos-viven-atmosfera-futurista-render-3d_172660-11.jpg?w=996");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+  }
+  
+  #home-banner h4 {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  #home-banner h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0px;
+  }
+  
+  #home-banner span {
+    color: #ef3636;
+  }
+  
+  #home-banner button:hover {
+    background-color: #088178;
+    color: #fff;
+  }
+  
+  /* Categories */
+  
+  #categories > h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  #categories .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #categories .category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #categories .category-men {
+    background-image: url("https://img.freepik.com/foto-gratis/retrato-joven-apuesto-hace-buen-gesto-demuestra-que-acuerdo-gusta-idea-sonrie-felizmente-usa-gafas-opticas-sombrero-amarillo-camiseta-modelos-interior-bien-gracias-signo-mano_273609-30676.jpg?t=st=1651814148~exp=1651814748~hmac=d4c09f6732cd42e69d8aae58e74f37983ce42074c33cce26b3947f1b7d30e202&w=740");
+  }
+  
+  #categories .category-women {
+    background-image: url("https://images.pexels.com/photos/2065200/pexels-photo-2065200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  }
+  
+  #categories h3 {
+    text-align: center;
+  }
+  
+  #categories h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  #categories .category h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  
+  #categories span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+  
+  #categories a:hover {
+    background-color: #088178;
+    border: 1px solid #088178;
+  }
